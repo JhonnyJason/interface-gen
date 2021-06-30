@@ -131,9 +131,9 @@ The response then carries an object with an entry for each defined asset. Statin
 `ourName` is the identifier we use in our network - important that we really consistently use it everywhere.
 
 #### request
-```json=
+```json
 {
-    "authCode": "..."
+    "authCode": "...",
     "exchangeName": "USDT",
     "ourName": "usdt"
 }
@@ -149,7 +149,7 @@ The response then carries an object with an entry for each defined asset. Statin
 `ourName` is the identifier we use in our network - important that we really consistently use it everywhere.
 
 #### request
-```json=
+```json
 {
     "authCode": "..."
     "ourName": "usdt"
@@ -167,7 +167,7 @@ The response then carries an object with an entry for each defined asset. Statin
 `ourName` is the identifier we use in our network - here it is important to stick to our asset names being separated by a `-`.
 
 #### request
-```json=
+```json
 {
     "authCode": "..."
     "exchangeName": "BNTUSDT",
@@ -185,7 +185,7 @@ The response then carries an object with an entry for each defined asset. Statin
 `ourName` is the identifier we use in our network - here it is important to stick to our asset names being separated by a `-`.
 
 #### request
-```json=
+```json
 {
     "authCode": "..."
     "ourName": "bancor-usdt"
