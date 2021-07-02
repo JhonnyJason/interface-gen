@@ -44,7 +44,7 @@
     "bugs": {
         "url": "https://github.com/JhonnyJason/interface-gen/issues"
     },
-    "homepage": "https://github.com/JhonnyJason/interface-gen#readme",
+    "homepage": "https://github.com/JhonnyJason/interface-gen-output#readme",
     "dependencies": {
         "coffeescript": "^2.5.1",
         "hjson": "^3.2.2",

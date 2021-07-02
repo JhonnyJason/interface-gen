@@ -4,44 +4,44 @@ scihandlers.getLatestOrders = (authCode, assetPairs, subscriber) ->
     ###
     
 {
-    &quot;ether-euro&quot;: {
+    "ether-euro": {
         sellStack: [
             {
-                id: &quot;OLAUID&quot;,
-                type: &quot;sell&quot;,
+                id: "OLAUID",
+                type: "sell",
                 price: 199.0,
                 volume: 0.3
             },
-            &#x2F;&#x2F;...
+            //...
         ],
         buyStack: [
             {
-                id: &quot;SIAUID&quot;,
-                type: &quot;buy&quot;,
+                id: "SIAUID",
+                type: "buy",
                 price: 195.0,
                 volume: 0.3
             },
-            &#x2F;&#x2F;...
+            //...
         ],
         cancelledStack: [
             {
-                id: &quot;AAAAA&quot;,
+                id: "AAAAA",
                 time: 1671356172123,
-                type: &quot;buy&quot;,
+                type: "buy",
                 price: 191.0,
                 volume: 0.3
             },
-            &#x2F;&#x2F;...
+            //...
         ],
         filledStack: [
             {
-                id: &quot;XXXX&quot;,
+                id: "XXXX",
                 time: 1671356172356,
-                type: &quot;buy&quot;,
+                type: "buy",
                 price: 197.0,
                 volume: 0.3
             },
-            &#x2F;&#x2F;...        
+            //...        
         ]
 
 
@@ -58,7 +58,7 @@ scihandlers.getLatestTickers = (authCode, assetPairs, subscriber) ->
     ###
     
 {
-    &quot;ether-euro&quot;: {
+    "ether-euro": {
         askPrice: 197,
         bidPrice: 198,
         closingPrice: 197.5,
@@ -77,9 +77,9 @@ scihandlers.getLatestBalances = (authCode, assets, subscriber) ->
     ###
     
 {
-    &quot;euro&quot;: 999.90, 
-    &quot;ether&quot;: 12.23, 
-    &quot;usdt&quot;: 662.27
+    "euro": 999.90, 
+    "ether": 12.23, 
+    "usdt": 662.27
 }
 
     ###
@@ -92,7 +92,7 @@ scihandlers.addRelevantAsset = (authCode, exchangeName, ourName) ->
     ###
     
 {
-    &quot;ok&quot;: true
+    "ok": true
 }
 
     ###
@@ -105,7 +105,7 @@ scihandlers.removeRelevantAsset = (authCode, ourName) ->
     ###
     
 {
-    &quot;ok&quot;: true
+    "ok": true
 }
 
     ###
@@ -118,7 +118,7 @@ scihandlers.addRelevantAssetPair = (authCode, exchangeName, ourName) ->
     ###
     
 {
-    &quot;ok&quot;: true
+    "ok": true
 }
 
     ###
@@ -131,7 +131,7 @@ scihandlers.removeRelevantAssetPair = (authCode, ourName) ->
     ###
     
 {
-    &quot;ok&quot;: true
+    "ok": true
 }
 
     ###
@@ -144,14 +144,14 @@ scihandlers.getRelevantAssets = (authCode) ->
     ###
     
 {
-    &quot;relevantAssets&quot;: [
-        &quot;bancor&quot;: {
-            &quot;exchangeName&quot;:&quot;BNT&quot;,
-            &quot;ourName&quot;: &quot;bancor&quot; 
+    "relevantAssets": [
+        "bancor": {
+            "exchangeName":"BNT",
+            "ourName": "bancor" 
         },
-        &quot;usdt&quot;: {
-            &quot;exchangeName&quot;:&quot;USDT&quot;,
-            &quot;ourName&quot;: &quot;usdt&quot;
+        "usdt": {
+            "exchangeName":"USDT",
+            "ourName": "usdt"
         }
     ]
 }
@@ -166,10 +166,10 @@ scihandlers.getRelevantAssetPairs = (authCode) ->
     ###
     
 {
-    &quot;relevantAssetPairs&quot;: [
-        &quot;bancor-usdt&quot;: {
-            &quot;exchangeName&quot;:&quot;BNTUSDT&quot;,
-            &quot;ourName&quot;: &quot;bancor-usdt&quot;
+    "relevantAssetPairs": [
+        "bancor-usdt": {
+            "exchangeName":"BNTUSDT",
+            "ourName": "bancor-usdt"
         }
     ]
 }
@@ -185,18 +185,18 @@ scihandlers.getFailingIdentifiers = (authCode) ->
     ###
     
 {
-    &quot;failingIdentifiers&quot;: [
-        &quot;bancor&quot;: {
-            &quot;exchangeName&quot;:&quot;SBNT&quot;,
-            &quot;ourName&quot;: &quot;bancor&quot; 
+    "failingIdentifiers": [
+        "bancor": {
+            "exchangeName":"SBNT",
+            "ourName": "bancor" 
         },
-        &quot;usdt&quot;: {
-            &quot;exchangeName&quot;:&quot;USDK&quot;,
-            &quot;ourName&quot;: &quot;usdt&quot;
+        "usdt": {
+            "exchangeName":"USDK",
+            "ourName": "usdt"
         },
-        &quot;bancor-usdt&quot;: {
-            &quot;exchangeName&quot;:&quot;BNTUSDK&quot;,
-            &quot;ourName&quot;: &quot;bancor-usdt&quot;
+        "bancor-usdt": {
+            "exchangeName":"BNTUSDK",
+            "ourName": "bancor-usdt"
         }
 
     ]
@@ -212,10 +212,10 @@ scihandlers.getServiceStatus = (authCode) ->
     ###
     
 {
-    &quot;failingAssetPairs&quot;: [
-        &quot;bancor-usdt&quot;: {
-            &quot;exchangeName&quot;:&quot;BNTUSDK&quot;,
-            &quot;ourName&quot;: &quot;bancor-usdt&quot;
+    "failingAssetPairs": [
+        "bancor-usdt": {
+            "exchangeName":"BNTUSDK",
+            "ourName": "bancor-usdt"
         }
     ]
 }
@@ -231,10 +231,10 @@ scihandlers.getNodeId = (authCode) ->
     ###
     
 {
-    &quot;failingAssetPairs&quot;: [
-        &quot;bancor-usdt&quot;: {
-            &quot;exchangeName&quot;:&quot;BNTUSDK&quot;,
-            &quot;ourName&quot;: &quot;bancor-usdt&quot;
+    "failingAssetPairs": [
+        "bancor-usdt": {
+            "exchangeName":"BNTUSDK",
+            "ourName": "bancor-usdt"
         }
     ]
 }
