@@ -1,0 +1,96 @@
+### 
+POST {{deploy}}/getLatestOrders
+content-type: application/json
+
+{
+"authCode": "...", 
+"assetPairs": "...", 
+"subscriber": "..."
+}
+### 
+POST {{deploy}}/getLatestTickers
+content-type: application/json
+
+{
+"authCode": "...", 
+"assetPairs": "...", 
+"subscriber": "..."
+}
+### 
+POST {{deploy}}/getLatestBalances
+content-type: application/json
+
+{
+"authCode": "...", 
+"assets": "...", 
+"subscriber": "..."
+}
+### 
+POST {{deploy}}/addRelevantAsset
+content-type: application/json
+
+{
+"authCode": "...", 
+"exchangeName": "...", 
+"ourName": "..."
+}
+### 
+POST {{deploy}}/removeRelevantAsset
+content-type: application/json
+
+{
+"authCode": "...", 
+"ourName": "..."
+}
+### 
+POST {{deploy}}/addRelevantAssetPair
+content-type: application/json
+
+{
+"authCode": "...", 
+"exchangeName": "...", 
+"ourName": "..."
+}
+### 
+POST {{deploy}}/removeRelevantAssetPair
+content-type: application/json
+
+{
+"authCode": "...", 
+"ourName": "..."
+}
+### 
+POST {{deploy}}/getRelevantAssets
+content-type: application/json
+
+{
+"authCode": "..."
+}
+### 
+POST {{deploy}}/getRelevantAssetPairs
+content-type: application/json
+
+{
+"authCode": "..."
+}
+### 
+POST {{deploy}}/getFailingIdentifiers
+content-type: application/json
+
+{
+"authCode": "..."
+}
+### 
+POST {{deploy}}/getServiceStatus
+content-type: application/json
+
+{
+"authCode": "..."
+}
+### 
+POST {{deploy}}/getNodeId
+content-type: application/json
+
+{
+"authCode": "..."
+}
