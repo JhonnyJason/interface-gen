@@ -1,2 +1,2 @@
 #! /bin/bash
-node ../../output/index.js sample
+node ../../output/index.js sample ../

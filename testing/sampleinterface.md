@@ -1,6 +1,6 @@
 ###### tags: `documentation` `sci` `asset-flow-control-system`
 
-# Observer Adapter SCI v0.2
+# Observer Adapter SCI v0.2.0
 
 ## Regular Operations
 - retrieve order information
