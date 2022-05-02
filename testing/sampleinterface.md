@@ -58,13 +58,9 @@ Similarily `buyStack[0]` is the most expensive buy of the Stack. Whereas `cancel
                 id: "XXXX",
                 time: 1671356172356,
                 type: "buy",
-                price: 197.0,
-                volume: 0.3
             },
             //...        
         ]
-
-
     }
 }
 ```
