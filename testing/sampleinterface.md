@@ -1,6 +1,6 @@
 ###### tags: `documentation` `sci` `asset-flow-control-system`
 
-# Observer Adapter SCI v0.2.0
+/# Observer Adapter SCI v0.2.0
 
 ## Regular Operations
 - retrieve order information
@@ -89,7 +89,6 @@ To know how recent our data are we also have the `timestamp` of when we received
         timestamp: 132456789
     }
 }
-
 ```
 
 ### /getLatestBalances

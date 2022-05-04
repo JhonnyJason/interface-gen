@@ -1,0 +1,336 @@
+[documentationparser]: constructed DocumentationFileParser
+[documentationparser]: parsing ended!
+[documentationparser]: 
+{
+    "start": 0,
+    "type": "document",
+    "level": 0,
+    "children": [
+        {
+            "start": 4,
+            "type": "sectionHead",
+            "level": 2,
+            "children": [
+                {
+                    "start": 9,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 14,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 23
+                        },
+                        {
+                            "start": 23,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 67
+                        }
+                    ],
+                    "open": false,
+                    "end": 67
+                },
+                {
+                    "start": 67,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 72,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 81
+                        },
+                        {
+                            "start": 81,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 93
+                        }
+                    ],
+                    "open": false,
+                    "end": 93
+                },
+                {
+                    "start": 93,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 97,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 105
+                        },
+                        {
+                            "start": 105,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 114
+                        }
+                    ],
+                    "open": false,
+                    "end": 114
+                }
+            ],
+            "open": false,
+            "end": 114
+        },
+        {
+            "start": 114,
+            "type": "sectionHead",
+            "level": 2,
+            "children": [
+                {
+                    "start": 123,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 127,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 135
+                        },
+                        {
+                            "start": 135,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 142
+                        }
+                    ],
+                    "open": false,
+                    "end": 142
+                },
+                {
+                    "start": 142,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 145,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 152
+                        },
+                        {
+                            "start": 152,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 159
+                        }
+                    ],
+                    "open": false,
+                    "end": 159
+                },
+                {
+                    "start": 159,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 163,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 171
+                        },
+                        {
+                            "start": 171,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 178
+                        }
+                    ],
+                    "open": false,
+                    "end": 178
+                },
+                {
+                    "start": 178,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 181,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 188
+                        },
+                        {
+                            "start": 188,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 195
+                        }
+                    ],
+                    "open": false,
+                    "end": 195
+                },
+                {
+                    "start": 195,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 197,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 204
+                        },
+                        {
+                            "start": 204,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 220
+                        }
+                    ],
+                    "open": false,
+                    "end": 220
+                },
+                {
+                    "start": 220,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 222,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 229
+                        },
+                        {
+                            "start": 229,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 242
+                        }
+                    ],
+                    "open": false,
+                    "end": 242
+                },
+                {
+                    "start": 242,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 244,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 251
+                        },
+                        {
+                            "start": 251,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 272
+                        }
+                    ],
+                    "open": false,
+                    "end": 272
+                },
+                {
+                    "start": 272,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 274,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 281
+                        },
+                        {
+                            "start": 281,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 294
+                        }
+                    ],
+                    "open": false,
+                    "end": 294
+                },
+                {
+                    "start": 294,
+                    "type": "routeHead",
+                    "level": 3,
+                    "children": [
+                        {
+                            "start": 296,
+                            "type": "requestHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 303
+                        },
+                        {
+                            "start": 303,
+                            "type": "responseHead",
+                            "level": 4,
+                            "children": [],
+                            "open": false,
+                            "end": 316
+                        }
+                    ],
+                    "open": false,
+                    "end": 316
+                }
+            ],
+            "open": false,
+            "end": 316
+        }
+    ],
+    "open": false,
+    "end": 316
+}
+Error!
+Error: Death on Purpose!
+Error: Death on Purpose!
+    at Module.execute (file:///home/lenny/thingies/interface-gen/output/mainprocessmodule.js:25:9)
+    at Module.cliStartup (file:///home/lenny/thingies/interface-gen/output/startupmodule.js:44:14)
+    at run (file:///home/lenny/thingies/interface-gen/output/index.js:23:32)
