@@ -2,6 +2,8 @@
 
 /# Observer Adapter SCI v0.2.0
 
+
+
 ## Regular Operations
 - retrieve order information
 - retrieve balance information
@@ -103,6 +105,7 @@ The response then carries an object with an entry for each defined asset. Statin
     "subscriber": "https://situation-analyzer.weblenny.at/update"
 }
 ```
+
 #### response
 ```json
 {
@@ -205,7 +208,7 @@ The response then carries an object with an entry for each defined asset. Statin
 #### response
 ```json
 {
-    "relevantAssets": [
+    "relevantAssets": {
         "bancor": {
             "exchangeName":"BNT",
             "ourName": "bancor" 
@@ -214,7 +217,7 @@ The response then carries an object with an entry for each defined asset. Statin
             "exchangeName":"USDT",
             "ourName": "usdt"
         }
-    ]
+    }
 }
 ```
 
@@ -230,12 +233,12 @@ The response then carries an object with an entry for each defined asset. Statin
 #### response
 ```json
 {
-    "relevantAssetPairs": [
+    "relevantAssetPairs": {
         "bancor-usdt": {
             "exchangeName":"BNTUSDT",
             "ourName": "bancor-usdt"
         }
-    ]
+    }
 }
 
 ```
@@ -252,7 +255,7 @@ The response then carries an object with an entry for each defined asset. Statin
 #### response
 ```json
 {
-    "failingIdentifiers": [
+    "failingIdentifiers": {
         "bancor": {
             "exchangeName":"SBNT",
             "ourName": "bancor" 
@@ -265,8 +268,7 @@ The response then carries an object with an entry for each defined asset. Statin
             "exchangeName":"BNTUSDK",
             "ourName": "bancor-usdt"
         }
-
-    ]
+    }
 }
 ```
 
@@ -282,12 +284,12 @@ The response then carries an object with an entry for each defined asset. Statin
 #### response
 ```json
 {
-    "failingAssetPairs": [
+    "failingAssetPairs": {
         "bancor-usdt": {
             "exchangeName":"BNTUSDK",
             "ourName": "bancor-usdt"
         }
-    ]
+    }
 }
 
 ```
@@ -304,12 +306,9 @@ The response then carries an object with an entry for each defined asset. Statin
 #### response
 ```json
 {
-    "failingAssetPairs": [
-        "bancor-usdt": {
-            "exchangeName":"BNTUSDK",
-            "ourName": "bancor-usdt"
-        }
-    ]
+    publicKey: "..."
+    timestamp: "..."
+    signature: "..."
 }
 
 ```

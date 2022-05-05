@@ -1,332 +1,340 @@
-[documentationparser]: constructed DocumentationFileParser
-[documentationparser]: parsing ended!
-[documentationparser]: 
+[interfaceparser]: reading interface file from: /home/lenny/thingies/interface-gen/testing/sampleinterface.coffee
+[interfaceparser]: constructed InterfaceFileParser
+[interfaceparser]: parsing ended!
+[interfaceparser]: 
 {
     "start": 0,
     "type": "document",
     "level": 0,
+    "parent": null,
     "children": [
         {
-            "start": 4,
-            "type": "sectionHead",
-            "level": 2,
-            "children": [
-                {
-                    "start": 9,
-                    "type": "routeHead",
-                    "level": 3,
-                    "children": [
-                        {
-                            "start": 14,
-                            "type": "requestHead",
-                            "level": 4,
-                            "children": [],
-                            "open": false,
-                            "end": 23
-                        },
-                        {
-                            "start": 23,
-                            "type": "responseHead",
-                            "level": 4,
-                            "children": [],
-                            "open": false,
-                            "end": 67
-                        }
-                    ],
-                    "open": false,
-                    "end": 67
-                },
-                {
-                    "start": 67,
-                    "type": "routeHead",
-                    "level": 3,
-                    "children": [
-                        {
-                            "start": 72,
-                            "type": "requestHead",
-                            "level": 4,
-                            "children": [],
-                            "open": false,
-                            "end": 81
-                        },
-                        {
-                            "start": 81,
-                            "type": "responseHead",
-                            "level": 4,
-                            "children": [],
-                            "open": false,
-                            "end": 93
-                        }
-                    ],
-                    "open": false,
-                    "end": 93
-                },
-                {
-                    "start": 93,
-                    "type": "routeHead",
-                    "level": 3,
-                    "children": [
-                        {
-                            "start": 97,
-                            "type": "requestHead",
-                            "level": 4,
-                            "children": [],
-                            "open": false,
-                            "end": 105
-                        },
-                        {
-                            "start": 105,
-                            "type": "responseHead",
-                            "level": 4,
-                            "children": [],
-                            "open": false,
-                            "end": 114
-                        }
-                    ],
-                    "open": false,
-                    "end": 114
-                }
-            ],
-            "open": false,
-            "end": 114
+            "start": 0,
+            "type": "contentBlock",
+            "level": 7,
+            "parent": null,
+            "children": [],
+            "end": 1
         },
         {
-            "start": 114,
-            "type": "sectionHead",
-            "level": 2,
+            "start": 1,
+            "type": "emptySpaceBlock",
+            "level": 7,
+            "parent": null,
+            "children": [],
+            "end": 2
+        },
+        {
+            "start": 2,
+            "type": "sectionBlock",
+            "level": 1,
+            "parent": null,
             "children": [
                 {
-                    "start": 123,
-                    "type": "routeHead",
-                    "level": 3,
+                    "start": 3,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
                     "children": [
                         {
-                            "start": 127,
-                            "type": "requestHead",
-                            "level": 4,
+                            "start": 4,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 135
+                            "end": 8
                         },
                         {
-                            "start": 135,
-                            "type": "responseHead",
-                            "level": 4,
+                            "start": 8,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 142
+                            "end": 9
                         }
                     ],
-                    "open": false,
-                    "end": 142
+                    "end": 9
                 },
                 {
-                    "start": 142,
-                    "type": "routeHead",
-                    "level": 3,
+                    "start": 9,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
                     "children": [
                         {
-                            "start": 145,
-                            "type": "requestHead",
-                            "level": 4,
+                            "start": 10,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 152
+                            "end": 14
                         },
                         {
-                            "start": 152,
-                            "type": "responseHead",
-                            "level": 4,
+                            "start": 14,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 159
+                            "end": 15
                         }
                     ],
-                    "open": false,
-                    "end": 159
+                    "end": 15
                 },
                 {
-                    "start": 159,
-                    "type": "routeHead",
-                    "level": 3,
+                    "start": 15,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
                     "children": [
                         {
-                            "start": 163,
-                            "type": "requestHead",
-                            "level": 4,
+                            "start": 16,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 171
+                            "end": 20
                         },
                         {
-                            "start": 171,
-                            "type": "responseHead",
-                            "level": 4,
+                            "start": 20,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 178
+                            "end": 21
                         }
                     ],
-                    "open": false,
-                    "end": 178
+                    "end": 21
                 },
                 {
-                    "start": 178,
-                    "type": "routeHead",
-                    "level": 3,
+                    "start": 21,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
                     "children": [
                         {
-                            "start": 181,
-                            "type": "requestHead",
-                            "level": 4,
+                            "start": 22,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 188
+                            "end": 26
                         },
                         {
-                            "start": 188,
-                            "type": "responseHead",
-                            "level": 4,
+                            "start": 26,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 195
+                            "end": 27
                         }
                     ],
-                    "open": false,
-                    "end": 195
+                    "end": 27
                 },
                 {
-                    "start": 195,
-                    "type": "routeHead",
-                    "level": 3,
+                    "start": 27,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
                     "children": [
                         {
-                            "start": 197,
-                            "type": "requestHead",
-                            "level": 4,
+                            "start": 28,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 204
+                            "end": 32
                         },
                         {
-                            "start": 204,
-                            "type": "responseHead",
-                            "level": 4,
+                            "start": 32,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 220
+                            "end": 33
                         }
                     ],
-                    "open": false,
-                    "end": 220
+                    "end": 33
                 },
                 {
-                    "start": 220,
-                    "type": "routeHead",
-                    "level": 3,
+                    "start": 33,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
                     "children": [
                         {
-                            "start": 222,
-                            "type": "requestHead",
-                            "level": 4,
+                            "start": 34,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 229
+                            "end": 38
                         },
                         {
-                            "start": 229,
-                            "type": "responseHead",
-                            "level": 4,
+                            "start": 38,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 242
+                            "end": 39
                         }
                     ],
-                    "open": false,
-                    "end": 242
+                    "end": 39
                 },
                 {
-                    "start": 242,
-                    "type": "routeHead",
-                    "level": 3,
+                    "start": 39,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
                     "children": [
                         {
-                            "start": 244,
-                            "type": "requestHead",
-                            "level": 4,
+                            "start": 40,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 251
+                            "end": 44
                         },
                         {
-                            "start": 251,
-                            "type": "responseHead",
-                            "level": 4,
+                            "start": 44,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 272
+                            "end": 45
                         }
                     ],
-                    "open": false,
-                    "end": 272
+                    "end": 45
                 },
                 {
-                    "start": 272,
-                    "type": "routeHead",
-                    "level": 3,
+                    "start": 45,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
                     "children": [
                         {
-                            "start": 274,
-                            "type": "requestHead",
-                            "level": 4,
+                            "start": 46,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 281
+                            "end": 50
                         },
                         {
-                            "start": 281,
-                            "type": "responseHead",
-                            "level": 4,
+                            "start": 50,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 294
+                            "end": 51
                         }
                     ],
-                    "open": false,
-                    "end": 294
+                    "end": 51
                 },
                 {
-                    "start": 294,
-                    "type": "routeHead",
-                    "level": 3,
+                    "start": 51,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
                     "children": [
                         {
-                            "start": 296,
-                            "type": "requestHead",
-                            "level": 4,
+                            "start": 52,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 303
+                            "end": 56
                         },
                         {
-                            "start": 303,
-                            "type": "responseHead",
-                            "level": 4,
+                            "start": 56,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
                             "children": [],
-                            "open": false,
-                            "end": 316
+                            "end": 57
                         }
                     ],
-                    "open": false,
-                    "end": 316
+                    "end": 57
+                },
+                {
+                    "start": 57,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
+                    "children": [
+                        {
+                            "start": 58,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
+                            "children": [],
+                            "end": 62
+                        },
+                        {
+                            "start": 62,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
+                            "children": [],
+                            "end": 63
+                        }
+                    ],
+                    "end": 63
+                },
+                {
+                    "start": 63,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
+                    "children": [
+                        {
+                            "start": 64,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
+                            "children": [],
+                            "end": 68
+                        },
+                        {
+                            "start": 68,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
+                            "children": [],
+                            "end": 69
+                        }
+                    ],
+                    "end": 69
+                },
+                {
+                    "start": 69,
+                    "type": "functionBlock",
+                    "level": 2,
+                    "parent": null,
+                    "children": [
+                        {
+                            "start": 70,
+                            "type": "contentBlock",
+                            "level": 7,
+                            "parent": null,
+                            "children": [],
+                            "end": 74
+                        },
+                        {
+                            "start": 74,
+                            "type": "emptySpaceBlock",
+                            "level": 7,
+                            "parent": null,
+                            "children": [],
+                            "end": 75
+                        }
+                    ],
+                    "end": 75
                 }
             ],
-            "open": false,
-            "end": 316
+            "end": 75
         }
     ],
-    "open": false,
-    "end": 316
+    "end": 75
 }
 Error!
 Error: Death on Purpose!
