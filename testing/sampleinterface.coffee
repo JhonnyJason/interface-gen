@@ -1,74 +1,62 @@
 import { postData } from "thingy-network-base"
 
 ############################################################
-export getLatestOrders = (authCode, assetPairs, subscriber) ->
+export getLatestOrders = (sciURL, authCode, assetPairs, subscriber) ->
     requestObject = { authCode, assetPairs, subscriber }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/getLatestOrders"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/getLatestOrders"
+    return postData(requestURL, requestObject)
 
-export getLatestTickers = (authCode, assetPairs, subscriber) ->
+export getLatestTickers = (sciURL, authCode, assetPairs, subscriber) ->
     requestObject = { authCode, assetPairs, subscriber }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/getLatestTickers"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/getLatestTickers"
+    return postData(requestURL, requestObject)
 
-export getLatestBalances = (authCode, assets, subscriber) ->
+export getLatestBalances = (sciURL, authCode, assets, subscriber) ->
     requestObject = { authCode, assets, subscriber }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/getLatestBalances"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/getLatestBalances"
+    return postData(requestURL, requestObject)
 
-export addRelevantAsset = (authCode, exchangeName, ourName) ->
+export addRelevantAsset = (sciURL, authCode, exchangeName, ourName) ->
     requestObject = { authCode, exchangeName, ourName }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/addRelevantAsset"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/addRelevantAsset"
+    return postData(requestURL, requestObject)
 
-export removeRelevantAsset = (authCode, ourName) ->
+export removeRelevantAsset = (sciURL, authCode, ourName) ->
     requestObject = { authCode, ourName }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/removeRelevantAsset"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/removeRelevantAsset"
+    return postData(requestURL, requestObject)
 
-export addRelevantAssetPair = (authCode, exchangeName, ourName) ->
+export addRelevantAssetPair = (sciURL, authCode, exchangeName, ourName) ->
     requestObject = { authCode, exchangeName, ourName }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/addRelevantAssetPair"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/addRelevantAssetPair"
+    return postData(requestURL, requestObject)
 
-export removeRelevantAssetPair = (authCode, ourName) ->
+export removeRelevantAssetPair = (sciURL, authCode, ourName) ->
     requestObject = { authCode, ourName }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/removeRelevantAssetPair"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/removeRelevantAssetPair"
+    return postData(requestURL, requestObject)
 
-export getRelevantAssets = (authCode) ->
+export getRelevantAssets = (sciURL, authCode) ->
     requestObject = { authCode }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/getRelevantAssets"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/getRelevantAssets"
+    return postData(requestURL, requestObject)
 
-export getRelevantAssetPairs = (authCode) ->
+export getRelevantAssetPairs = (sciURL, authCode) ->
     requestObject = { authCode }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/getRelevantAssetPairs"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/getRelevantAssetPairs"
+    return postData(requestURL, requestObject)
 
-export getFailingIdentifiers = (authCode) ->
+export getFailingIdentifiers = (sciURL, authCode) ->
     requestObject = { authCode }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/getFailingIdentifiers"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/getFailingIdentifiers"
+    return postData(requestURL, requestObject)
 
-export getServiceStatus = (authCode) ->
+export getServiceStatus = (sciURL, authCode) ->
     requestObject = { authCode }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/getServiceStatus"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/getServiceStatus"
+    return postData(requestURL, requestObject)
 
-export getNodeId = (authCode) ->
+export getNodeId = (sciURL, authCode) ->
     requestObject = { authCode }
-    interfaceServers = allModules.configmodule.interfaceServers
-    requestURL = interfaceServers["sampleinterface"]+"/getNodeId"
-    return @postData(requestURL, requestObject)
+    requestURL = sciURL+"/getNodeId"
+    return postData(requestURL, requestObject)

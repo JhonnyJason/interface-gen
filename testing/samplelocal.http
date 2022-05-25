@@ -7,6 +7,10 @@ content-type: application/json
 "assetPairs": "...", 
 "subscriber": "..."
 }
+
+############################################################
+# asdasd
+
 ### 
 POST {{local}}/getLatestTickers
 content-type: application/json
